@@ -1,0 +1,16 @@
+name: quran_app
+description: القرآن الكريم بدون نت
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  quran: ^1.2.1
+  just_audio: ^0.9.40
+
+flutter:
+  uses-material-design: true
